@@ -100,9 +100,11 @@ p:hover{
   padding-bottom: 1em;
   margin-bottom: 1em;
 }
+
 h5{
   color:#e9b182;
- font-size:1em;
+  display :block;
+  font-size:1em;
 }  
 
 table {
