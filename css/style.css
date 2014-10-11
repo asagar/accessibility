@@ -3,17 +3,17 @@ html,body {
   padding: 0;
 }
 body {
-  background-color: #C1A878;
+  background-color: #cab58d;
   font-family: 'Georgia', serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.45;
-  color: #685F5F;
+  color: #663f1b;
 }
 
 p {margin-bottom: 1.3em;}
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4 ,h5,h6{
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
@@ -22,7 +22,7 @@ h1, h2, h3, h4 {
 h1 {
   margin-top: 0;
   font-size: 2.074em;
-  color: rgb(54, 8, 8);
+  color:#e9b182;
 }
 
 h2 {font-size: 1.728em;}
@@ -30,6 +30,9 @@ h2 {font-size: 1.728em;}
 h3 {font-size: 1.44em;}
 
 h4 {font-size: 1.2em;}
+
+
+h5{ line-height:.2; font-size: 1.2em; }
 
 small, .small {font-size: 0.833em;}
 
@@ -39,24 +42,68 @@ small, .small {font-size: 0.833em;}
 }
 
 img {
+
   margin: 0 auto;
   display: block;
   max-width: 100%;
 }
-
+ caption:hover{color:#4c2f14;
+ font-size: 1.500em;
+ }
 a {
-  color: black;
+  color:#4c2f14;
 }
 a:hover {
   color: white;
 }
+img:hover{
+  max-width: 120%;
+}
+
+
+table:hover {
+  height:50px;
+  max-width:15px;
+}
+
+
+th,td:hover{
+  color:#4c2f14;
+  font-size:25px;
+}
+h4:hover{
+ color:#4c2f14;
+ font-size: 1.900em;
+}
+h2:hover{ 
+  color:#4c2f14;
+ font-size: 1.900em;
+}
+h3:hover{
+ color:#4c2f14;
+ font-size: 1.900em;
+}  
+
+h5:hover{
+  color:#e9b182;
+ font-size:1.200em;
+}            
+p:hover{
+  color:#4c2f14;
+  font-size:1.400em;
+}
+
 /*.header*/
 .site-header{
-  background: #7F4F21;
-  padding-top: 1em;
+  background: #643e1a;
+  padding-top: 1.5em;
   padding-bottom: 1em;
   margin-bottom: 1em;
 }
+h5{
+  color:#e9b182;
+ font-size:1em;
+}  
 
 table {
   table-layout: fixed;
